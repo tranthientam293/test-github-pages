@@ -3,7 +3,6 @@ name: Deploy React App to Github Page
 on:
   push:
     branch: [deploy]
-  workflow_dispatch:
 
 permissions:
   contents: write
