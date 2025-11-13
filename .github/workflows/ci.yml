@@ -2,7 +2,7 @@ name: Deploy React App to Github Page
 
 on:
   push:
-    branch: [deploy]
+    branch: [gh-pages]
 
 permissions:
   contents: write
